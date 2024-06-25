@@ -1,0 +1,121 @@
+.landingpage {
+  
+    margin: 2% 7%;
+    display: flex;
+    gap: 30px;
+}
+
+.landingpageImage {
+    height: 500px;
+    width: 900px;
+    background-image: url('https://media.istockphoto.com/id/2155486156/photo/multicolor-building-wooden-block-geometric-toys-for-kid.jpg?s=612x612&w=0&k=20&c=xVrOfoIrLioyytRcox6PLQVD6Mz4IMfDKzysvSwuH4s=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.constructor {
+    padding-left: 10px;
+    margin: 5% 0% 0px 5%;
+    border-radius: 10px;
+    border: 1px solid rgb(185, 183, 183);
+    width: 300px;
+}
+
+.constructor span {
+    display: block;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-weight: 500;
+
+}
+/* RANGE */
+.range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 250px;
+    height: 8px;
+    border-radius: 5px;
+    background: #ffd600; 
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+  }
+  
+  .range:hover {
+    opacity: 1;
+  }
+  
+  /* Style the thumb */
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 5px solid #ffd600;
+    background:#f4f3ee;
+    cursor: pointer;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .range::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  }
+
+
+  
+
+
+
+.constructor select {
+    padding: 10px;
+    width: 280px;
+    margin-bottom: 2%;
+    border: 1px solid grey;
+    background-color: transparent;
+    border-radius: 5px;
+
+}
+.constructor button{
+   padding: 10px;
+   width: 280px;
+   margin-bottom: 5%;
+   background-color: #ffd600;
+   border: none;
+   margin-top: 10px;
+   color: white;
+   border-radius: 5px;
+   font-size: 16px;
+}
+
+@media only screen and (max-width: 882px) {
+    body{
+        overflow-x: hidden;
+    }
+    .landingpage {
+     
+        flex-direction: column;
+        margin: 15% 0%;
+    }
+
+    .landingpageImage {
+        height: 500px;
+        width: auto;
+        background-image: url('https://media.istockphoto.com/id/2155486156/photo/multicolor-building-wooden-block-geometric-toys-for-kid.jpg?s=612x612&w=0&k=20&c=xVrOfoIrLioyytRcox6PLQVD6Mz4IMfDKzysvSwuH4s=');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
+    }
+
+}

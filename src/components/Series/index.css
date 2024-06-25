@@ -1,0 +1,101 @@
+.series {
+    margin: 5%;
+justify-content: center;
+  
+}
+
+.SERIES {
+    margin: 0px 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    padding: 10px;
+}
+
+.ONE-GROUP {
+    position: relative;
+
+
+    display: inline-block;
+}
+
+
+.series h1 {
+    color: black;
+    text-align: center;
+}
+
+.star-wars {
+    display: inline-block;
+
+    border-radius: 15px;
+
+
+    filter: brightness(80%);
+
+}
+
+.star-wars img {
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.series-text {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+}
+
+.series-text img {
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.moreSEries-button {
+    padding: 20px 70px;
+    color: white;
+    background-color: #ffd600;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.btn {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+@media only screen and (max-width: 882px) {
+    .series {
+        margin: 0%;
+    }
+
+    .star-wars img {
+        width: 100%;
+
+    }
+
+    
+
+}
+@media only screen and (max-width: 1280px) {
+    .SERIES {
+        justify-content: center;
+    }
+    .star-wars img {
+        height: 250px;
+        width: 300px;
+        border-radius: 15px;
+    }
+}

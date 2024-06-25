@@ -1,0 +1,87 @@
+.dicount-title {
+    color: black;
+    text-align: center;
+}
+
+#discount {
+    display: inline-block;
+    margin: 5%;
+    border-radius: 20px;
+    height: 200px;
+    justify-content: center;
+    
+
+   }
+   .content{
+  align-items: center;
+    justify-content: center;
+   }
+   #discount img{
+    height: 150px;
+    border-radius: 20px;
+    width: 350px;
+ 
+   }
+   .discount-text{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+   }
+   .discount-bar{
+    background-color: #ffd600;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+   }
+   .discount-bar p{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+   }
+   .discount-bar section input{
+    width: 300px;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+   }
+   .discount-bar section button{
+    border: none;
+    padding: 20px 50px;
+    background-color: #e70062;
+    border-radius: 0px 20px 20px 0px ;
+    color: white;
+    font-size: 14px;
+   }
+
+   @media only screen and (max-width: 882px) {
+    .discount-bar{
+        flex-direction: column;
+    }
+    .discount-bar p{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .discount-bar section input{
+        width: 100px;
+        margin-bottom: 5%;
+    }
+
+   }
+   @media only screen and (max-width: 1280px) {
+    .content{
+        display: flex;
+        overflow-x: scroll;
+        margin: 0px 2%;
+    }
+    #discount img{
+        height: 150px;
+        border-radius: 20px;
+        width: 300px;
+     
+       }
+       #discount{
+        margin-left: 5%;
+       }
+
+   }
